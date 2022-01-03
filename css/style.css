@@ -7,9 +7,37 @@ body {
 .alert-container{}
 
 .callout-container {
-    height: 100vh;
+    height: 90vh;
+    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1, p {
+    color: #CECECE;
+}
+
+.jumbotron small {
+    font-size: 70%;
+    color: darkgrey;
+    margin-top: 30px;
+}
 .quotes-container{}
 
 .features-container{}
